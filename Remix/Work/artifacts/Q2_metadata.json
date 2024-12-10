@@ -6,39 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getMessage",
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_year",
+						"type": "uint16"
+					}
+				],
+				"name": "findLeap",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					},
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "uint16",
-						"name": "_price",
-						"type": "uint16"
-					}
-				],
-				"name": "setMessage",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -55,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"MyBook.sol": "MyBook"
+			"Remix/Work/Q2.sol": "Q2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"MyBook.sol": {
-			"keccak256": "0x403a53c38c662e187a1b10ca0d337bbf532fe27e5114995df984cc2c9c1f0074",
+		"Remix/Work/Q2.sol": {
+			"keccak256": "0x4e3c31dea2423899b72b4d23d8e177b79a6160b2eb22a652b75f2e2fdc54e8cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://676db8ec84c5020ef11cb5f966357a427ca9f8f0e16000005bd67695dd1ccd33",
-				"dweb:/ipfs/QmRFKKWpar2eAaLnG8Epk8c22kcUi955YVavVkiu3MterT"
+				"bzz-raw://f7d514ca19652ff5649cd724104f96bbb2cc1cece4b000115e04636e9b6225ec",
+				"dweb:/ipfs/QmQyAyC6BijQGbBy8vw9egBqU3hGUXQ6VqnHEVDUgGYRmK"
 			]
 		}
 	},

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					}
+				],
+				"name": "checkSign",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Remix/Work/Q1_2.sol": "Q1_2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Remix/Work/Q1_2.sol": {
+			"keccak256": "0xb0b1565d95703f188523f4b5d0f19039105b2678df81695849b53e4b7eec1e0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c69bc3b8334eb8922e5cace72399f37f2bfb8509de289075d24fc052f2e851b",
+				"dweb:/ipfs/QmV11WqChMWkX3fobmVcZSbwWgjwnXeLqnZ9L1ShvptxT6"
+			]
+		}
+	},
+	"version": 1
+}
