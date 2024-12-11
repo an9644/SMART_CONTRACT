@@ -6,7 +6,7 @@ contract MyBook{
         string  title; //state variable// free ayit getter function kitum 
         uint16  price; // sate veriable
         address payable  owner;
-        address  buyer;
+        address payable  buyer;
         bool  sold;
     }
      book public myBook; 
@@ -17,7 +17,8 @@ contract MyBook{
     function getBook(string memory _title,uint16 _price)public{
         myBook.title=_title;
         myBook.price=_price;
-        myBook.owner=payable (msg.sender);
+        // myBook.owner=payable (msg.seller);
+        myBook.buyer=payable (msg.sender);
         myBook.sold=false;
     }
     function ethToWei(uint eval)public pure returns(uint){
@@ -31,7 +32,7 @@ contract MyBook{
             if(bal>0){
                 payable (msg.sender).transfer(bal);
             }
-            myBook.owner=payable(msg.sender);
+            myBook.owner=payable(myBook.owner);
             myBook.buyer=msg.sender;
             myBook.sold=true;
         }else{ 

@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getEmployeeDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPersonDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_empId",
+						"type": "uint256"
+					}
+				],
+				"name": "setEmployeeDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Remix/Employee.sol": "Employee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Remix/Employee.sol": {
+			"keccak256": "0x6a86994bf8f64b316bd1935f5a0606746ffc57c830ca873a8aba79daab61f512",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dafa6ed236797df0ef36690cc9ea459dcae2691811ca90b6585c7e082a54af70",
+				"dweb:/ipfs/QmXGA2P4UJSJ9TSFpwakvYMhn7WECRPVLfc1tuxMy89eje"
+			]
+		},
+		"Remix/Inheritance.sol": {
+			"keccak256": "0xcadea6e566c0a01115d32697c74f061ea7236552837ed22cf5c75fa70943d81d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1cd94bc8c899f800633bd4e8315a6999690c01a5304394e4fb5ab61fd435cffe",
+				"dweb:/ipfs/QmfEj7tatpEX4b9XY2cUNtzhgx3NZDSLGGsDRzJVLJxtgM"
+			]
+		}
+	},
+	"version": 1
+}

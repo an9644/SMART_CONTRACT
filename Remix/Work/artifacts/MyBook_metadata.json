@@ -129,11 +129,11 @@
 	},
 	"sources": {
 		"Remix/Work/work2-1.sol": {
-			"keccak256": "0x5832ced5b3f38be08c98fc6d678cdfb7a51e50c73fc4ad6e1e780c8efeb4aaf0",
+			"keccak256": "0xbfd991092a4af1da1d911078ca19665cedf53812194ef27e9b942cedb1667108",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://693fda2162e6889b7102f83b0b3a031ebdb2f87587b9194dafef17f1126efef8",
-				"dweb:/ipfs/QmbBjzhvcNSGTJV95raqss1U7DEuopfzXpVG1kwmjJj59g"
+				"bzz-raw://02e7e338e5ff98c57ae4241f8b028daf4b52cbea948b6fc2cea6a03f85a16d95",
+				"dweb:/ipfs/Qmcdv1wSiosQrCvowaohR6zqceRthjsFybTAGMcN1XnPys"
 			]
 		}
 	},
