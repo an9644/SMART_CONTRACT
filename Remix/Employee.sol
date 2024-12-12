@@ -11,7 +11,7 @@ contract Employee is Person{
         empId=_empId;
     }
  function getEmployeeDetails() public view returns (string memory, uint, uint) {
-        // return (getName(), getAge(), empId);
+        return (name, age);
 
 }
 

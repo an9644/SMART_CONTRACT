@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "certificates",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "course",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "grade",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_coures",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_grade",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_date",
+						"type": "string"
+					}
+				],
+				"name": "issue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Remix/Certi.sol": "Certi"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Remix/Certi.sol": {
+			"keccak256": "0xf601fe5270a10739da08dd37e54ba3125853a60cb8fd38211355c6e5f6787077",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5be827e45776999e80ba5c17316ed5cf6e79459bd98bce173c9b4ceae9d58302",
+				"dweb:/ipfs/Qma3GxQCuVUsVbv2tmkbApC24AQrjNAyiYUn5zj5kD1tPp"
+			]
+		}
+	},
+	"version": 1
+}

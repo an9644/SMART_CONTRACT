@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"MyContract.sol": "MyContract"
+			"Remix/MyContract.sol": "MyContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"MyContract.sol": {
+		"Remix/MyContract.sol": {
 			"keccak256": "0x02c997c66f61f860df3d5e7357c932236a0aee1fe5b9b7906d8eacf3e8383b33",
 			"license": "MIT",
 			"urls": [

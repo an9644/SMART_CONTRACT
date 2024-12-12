@@ -17,8 +17,8 @@ contract MyBook{
     function getBook(string memory _title,uint16 _price)public{
         myBook.title=_title;
         myBook.price=_price;
-        // myBook.owner=payable (msg.seller);
-        myBook.buyer=payable (msg.sender);
+        myBook.owner=payable (msg.sender);
+        // myBook.buyer=payable (msg.sender);
         myBook.sold=false;
     }
     function ethToWei(uint eval)public pure returns(uint){
