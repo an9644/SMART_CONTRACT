@@ -8,8 +8,11 @@ contract Aution{
         uint16 price;
     }
         address admin ;
+        address  owner;
+        address buyer;
 
-    mapping (uint256 _id => carAution)public caraution;
+
+    mapping (uint16 _id => carAution)public caraution;
 
     constructor(){
         admin=msg.sender;
@@ -18,13 +21,20 @@ contract Aution{
         require(msg.sender==admin,"Unauthorized");
         _;
     }
-    function issue(uint256 _id,string memory _car,string memory _model,uint16 _price)public onlyAdmin{
-           
+    function issue(uint16 _id,string memory _car,string memory _model,uint16 _price)public onlyAdmin{
             caraution[_id]=carAution(_car,_model,_price);
+            owner=msg.sender;
+
     }
-    function aution()public payable {
-        if(msg.value>caraution.price){
-            payable (msg.sender).transfer(msg.value);
+    function aution(uint16 _id)public payable {
+        if(msg.value>caraution[_id].price){
+            uint bal=msg.value-caraution[_id].price;
+            if(bal>0)
+                payable (msg.sender).transfer(bal) ;
+                owner=msg.sender;
+        }else{
+             payable (buyer).transfer(msg.value);
+            revert("Insufficient funds .amount refunded");
         }
     }
 }

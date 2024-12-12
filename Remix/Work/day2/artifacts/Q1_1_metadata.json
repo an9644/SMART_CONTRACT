@@ -6,21 +6,43 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "buyBook",
-				"outputs": [],
-				"stateMutability": "payable",
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					}
+				],
+				"name": "checkSign",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "eval",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num3",
 						"type": "uint256"
 					}
 				],
-				"name": "ethToWei",
+				"name": "findLargest",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,75 +54,32 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBook",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "price",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "uint16",
-						"name": "_price",
-						"type": "uint16"
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
 					}
 				],
-				"name": "setBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getDigit",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "sold",
+				"name": "num1",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint16",
 						"name": "",
-						"type": "bool"
+						"type": "uint16"
 					}
 				],
 				"stateMutability": "view",
@@ -108,12 +87,25 @@
 			},
 			{
 				"inputs": [],
-				"name": "title",
+				"name": "num2",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint16",
 						"name": "",
-						"type": "string"
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num3",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
 					}
 				],
 				"stateMutability": "view",
@@ -133,7 +125,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Remix/MyBook.sol": "MyBook"
+			"Remix/Work/day2/Q1_1.sol": "Q1_1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -147,12 +139,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Remix/MyBook.sol": {
-			"keccak256": "0x363dfb33daf9623ae28870ed8302311f025d5469569f09ef5c0659cf2da175dd",
+		"Remix/Work/day2/Q1_1.sol": {
+			"keccak256": "0xfd5c3abe4f3396b4f202709810d5b4bf39bca2956172b6a80174a5fa9ed2a0b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://33968fbb8cb0bea32ea29618e30ddb3ad554018470975271521a96dcf78c9ec5",
-				"dweb:/ipfs/QmddLRzQujGNwxbMUqNaFiV3xQtfkbNdvTMZeU9N4x4H5u"
+				"bzz-raw://db0bd3502ed46db3a39e121664c82bfc2afdeaa788b774abdadd48741b889cf1",
+				"dweb:/ipfs/QmW7Lz9YuzZ3efxk6gCAtQUX2QwGc7LYJw3CS69ApFQGHj"
 			]
 		}
 	},

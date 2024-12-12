@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_id",
+						"type": "uint16"
+					}
+				],
+				"name": "aution",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_id",
+						"type": "uint16"
+					}
+				],
+				"name": "caraution",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "car",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "price",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_id",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "_car",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_price",
+						"type": "uint16"
+					}
+				],
+				"name": "issue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Remix/Aution.sol": "Aution"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Remix/Aution.sol": {
+			"keccak256": "0xa252cd6f94ea3d49df5a990e99867fc2391e519dc00281f3788efff77584eefd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d14e377b867d4fb357f1be772d20abccfa53a690990b72d46bb3a413e50ae93",
+				"dweb:/ipfs/QmS8oLE9pAAgmCDvkpWdd2TAjzWSyJmDLZ5HHMScJijxAD"
+			]
+		}
+	},
+	"version": 1
+}
