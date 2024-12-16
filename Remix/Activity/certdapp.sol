@@ -23,8 +23,6 @@ contract Certi{
 
     function issue(uint256 _id,string memory _name,string memory _course,string memory _grade,string memory _date)public onlyAdmin{
         require(!certificates[_id].exist, "details  is already exists");
-            certificates[_id] = Certificate(_name,_course,_grade,_date,true);
-          
+            certificates[_id] = Certificate(_name,_course,_grade,_date,true);          
     }
-
 }
